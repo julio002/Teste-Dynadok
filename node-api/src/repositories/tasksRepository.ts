@@ -68,6 +68,7 @@ export class TasksRepository {
 
       return this.tasks[taskIndex];
     }
+
     return null;
   }
 

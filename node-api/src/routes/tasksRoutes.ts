@@ -80,6 +80,7 @@ router.delete("/:id", (req: Request, res: Response) => {
 
 router.get("/", (req, res) => {
   const tasks = tasksRepository.getAllTasks();
+
   return res.json(tasks);
 });
 
